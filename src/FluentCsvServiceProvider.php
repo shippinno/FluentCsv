@@ -2,16 +2,10 @@
 
 namespace Sukohi\FluentCsv;
 
+use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
-class FluentCsvServiceProvider extends ServiceProvider {
-
-    /**
-     * Indicates if loading of the provider is deferred.
-     *
-     * @var  bool
-     */
-    protected $defer = true;
+class FluentCsvServiceProvider extends ServiceProvider implements DeferrableProvider {
 
     /**
      * Bootstrap the application events.
