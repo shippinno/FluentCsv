@@ -1,7 +1,7 @@
 # FluentCsv
 
 A Laravel package that allows you to generate or save csv file being encoded.  
-This package supports Laravel 5.7 - 11.x.
+This package supports Laravel 5.8 - 11.x.
 
 # Installation
 
